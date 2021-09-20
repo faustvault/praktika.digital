@@ -10,8 +10,9 @@ window.addEventListener("mousemove", e => {
 })
 
 var stats = new Stats();
-stats.showPanel(0);
-document.body.appendChild(stats.dom);
+// stats.showPanel(0);
+// document.body.appendChild(stats.dom);
+
 /**
  * A jQuery plugin that generates an interactive starfield inside a canvas element.
  *
