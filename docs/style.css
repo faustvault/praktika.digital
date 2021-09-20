@@ -39,9 +39,14 @@ img {
   color: white;
 }
 
+.white:hover {
+  color: cyan;
+}
+
 .announcement {
   text-align: left;
   font-family: "Fira Code", monospace;
+  line-height: 1.5em;
   list-style-type: none;
 }
 
@@ -524,6 +529,7 @@ body {
   bottom: 0;
 }
 .ticket-visual_ticket-number {
+  font-family: "Fira Code", monospace;
   transform: rotate(90deg) translateY(calc(100px * var(--size)));
   transform-origin: bottom right;
   font-size: calc(40px * var(--size));
